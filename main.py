@@ -38,9 +38,9 @@ df= df.astype({
 #print(df)
 db_params= {
     'dbname' : "postgres",
-    'user': "testtech",
+    'user': "server4",
     'password': os.getenv('DB_PASSWORD'),
-    'host' : "testtech.postgres.database.azure.com",
+    'host' : "server4.postgres.database.azure.com",
     'port' : "5432"
 }
 
