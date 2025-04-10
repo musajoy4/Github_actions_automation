@@ -7,6 +7,8 @@ from dotenv import load_dotenv
 # Load .env file
 load_dotenv()
 
+
+
 df = get_article_data()
 print(df)
 
@@ -30,7 +32,6 @@ df= df.astype({
     'sentiment' : 'string',
     'compound_score' : 'float64'
 })
-
 
 
 
